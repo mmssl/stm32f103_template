@@ -19,12 +19,12 @@ STM32F10x_StdPeriph_Lib_V3.6.0//Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/s
 arm-none-eabi-objcopy -O ihex main.elf main.hex
 arm-none-eabi-objcopy -O binary main.elf main.bin</pre>
 
-To flash the code to MCU you can simply write:
+To flash the code you can simply write:
 <pre><span style="color:#E60013">make</span> <span style="color:#75B0CF">burn</span> </pre>
 
-To clean up the code:
+To clean up:
 <pre> <span style="color:#E60013">make</span> <span style="color:#75B0CF">clean</span> </pre>
 
-output will be like this:
+Output will be like that:
 <pre>rm -f *.o main.elf main.hex main.bin</pre>
 
